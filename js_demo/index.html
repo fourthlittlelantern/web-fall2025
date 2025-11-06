@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jingrong | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <script>
+        alert("Welcome, stranger.\nWhen shall we begin the tour?")
+        alert("Now?")
+        alert("Yes.")
+        alert("Very well.")
+        alert("Welcome.");
+
+        function me() {
+            var p = document.getElementById('me');
+            p.innerHTML='Me.';
+            p.style.fontSize = '8px';
+
+        }
+
+        function you() {
+            var p = document.getElementById('you');
+            p.innerHTML='You.';
+            p.style.fontSize = '15px';
+
+        }
+
+        function simpleMath() {
+            var p = document.getElementById('simple-math');
+            p.innerHTML=1+2;
+            p.style.fontSize = '25px';
+
+        }
+
+        function tree() {
+            var p = document.getElementById('tree');
+            p.innerHTML='Asghbgahn.';
+            p.style.color = 'red';
+            p.style.fontSize = '30px';
+        }
+
+        function pancreas() {
+            var p = document.getElementById('pancreas');
+            p.innerHTML='Asghbgahn.';
+            p.style.color = 'red';
+            p.style.fontSize = '30px';
+
+        }
+
+        function weasel() {
+            var p = document.getElementById('weasel');
+            p.innerHTML='Asghbgahn.';
+            p.style.color = 'red';
+            p.style.fontSize = '30px';
+        }
+
+        function askSpecies() {
+            var nameReturn = document.getElementById('ask-species');
+            var name = prompt('Please enter your species in the box below.');
+            if (name =="") {
+                alert('Please try again.');
+            } else {
+                nameReturn.innerHTML='Retrieving registration document for SPECIES: ' + name + '.';
+
+            }
+        }
+    </script>
+
+    <h1>Welcome to Asghbgahn.</h1>
+    <h2>The land of the ordinary and the expected.</h2>
+    <button><a href="https://www.thisman.org/" target="_blank" onclick="alert('Surely you aren\'t leaving now?\nWe haven\'t even begun yet.')">Click here to begin the tour.</a></button>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>What?</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>Welcome to Asghbgahn.</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h2 class="change-text">Arithmetic.</h2>
+    <p class="change-text">What is 1 + 2?</p>
+    <button onclick="document.getElementById('add').innerHTML=1+2">Click here for the answer!</button>
+    <p id="add"></p>
+    <p>What is 25 + 36?</p>
+    <button onclick="document.getElementById('add2').innerHTML='Asghbgahn.'">Click here for the answer!</button>
+    <p id="add2" class="change-text"></p>
+
+    <button onclick="document.getElementById('change-text').innerHTML='Asghbgahn.'">But what is 25 + 36?</button>
+    <p id="change-text">What is it?</p>
+
+    <br><br>
+    <button onclick="document.getElementById('date').innerHTML=Date()">What date is it today?</button>
+    <p id="date"></p>
+
+    <button onclick="document.getElementById('not-date').innerHTML='Asghbgahn.'">But what day is it?</button>
+    <p id="not-date"></p>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <h2>How do things function down here?</h2>
+    <p>You see, it's very simple...</p>
+    <button onclick="me()">Me.</button>
+    <p id="me"></p>
+    <button onclick="you()">You.</button>
+    <p id="you"></p>
+    <button onclick="simpleMath()">1 + 2</button>
+    <p id="simple-math"></p>
+    <button onclick="tree()">Tree.</button>
+    <p id="tree"></p>
+    <button onclick="pancreas()">Pancreas.</button>
+    <p id="pancreas"></p>
+    <button onclick="weasel()">Weasel.</button>
+    <p id="weasel"></p>
+
+    <h2>The only thing that-</h2>
+    <br>
+    <p>What is that?</p>
+    <br>
+    <p>...</p>
+    <br>
+    <p>You need to... register?<br><br>Ah. That's right. Here-</p>
+    <button onclick="askSpecies()">Click here to enter your species.</button>
+    <p id="ask-species"></p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2>REGISTATION DOCUMENT VERSION 9.4:</h2>
+    <button onclick="askName()">Click here to enter your name.</button>
+    <p id="ask-name"></p>
+</body>
+</html>

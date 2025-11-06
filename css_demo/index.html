@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | CSS Demo - Jingrong</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows Into Light|Edu AU VIC WA NT Guides" rel="stylesheet">
+    <style>
+
+        #purple-text {
+            color:#5009a8;
+        }
+
+        h2 {
+            text-align: center;
+            color: #093089;
+        }
+
+        .test {
+            color:#00726b;
+            font-family:'Edu AU VIC WA NT Guides';
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <h1>Demo: Cascading Style Sheets</h1>
+    <h2>Adding style with INLINE CSS. We do INLINE CSS here. Got it? INLINE CSS.</h2>
+    <p style="color:#094ea8;">This text is blue.</p>
+    <p style="color:#d11717;">This text is red. <i>Mindblown.</i></p>
+    <br>
+    <div style="text-align:center">
+        <h3>An amazing poem written by... a fish?</h3>
+        <br>
+        <p style="font-size:10px;">one fish.</p>
+        <p>two fish.</p>
+        <p style="color:#d11717;">red fish.</p>
+        <p style="color:#094ea8;">blue fish!!!</p>
+        <p style="font-size:30px;">huge fish.</p>
+        <p>we like big fish here.</p>
+        <p style="font-size:10px">we really do.</p>
+        <img src="images/fish.png" width="400px" class="fish">
+    </div>
+    <br>
+    <h2>This is how we use <i>INTERNAL</i> styling.</h2>
+    <p id="purple-text"><i>
+        Mmm, internal styling... delicious.
+        <!-- The id purple-text can only be used- -->
+        <br><br><br><br>Hm? What was that?
+        <!-- The id purple-text can only- -->
+        <br><br>
+        <br><br>...What? Are you calling me... purple?
+        <!-- Yes, the id purple-text- -->
+         <br><br><br><br>You're the one who's green.
+         <!-- The id purple-text- -->
+        <br><br><br><br>Shut up bro, no one's listening to you...
+        <br><br>Hm? Not me, not me... no, the other guy... why are you looking at me like that?
+    </i></p>
+    <br>
+    <h2>Here is another example of a element selector, I can style all H2's the same.</h2>
+    <p>I have power! I have POWER now!! <i>Mwahahahaha.</i> Bow down to me, H2's. Yes, even you, yes, yes...</p>
+    <br>
+    <h2>We can also use a class selector, which you can apply to as many lines of code as you would like.</h2>
+    <p class="test">This is part of a class.</p>
+    <h3 class="test">This is also part of a class.</h3>
+    <ul class="test">
+        <li>So is this.</li>
+    </ul>
+    <h4 class="test">So am <i>I</i>, thank you very much.</h4>
+    <p class="test">What's up, my fellow classmates.</p>
+    <p class="test">What- <i>what-</i> what do you mean we have a test?? <i>I don't wanna be in this class... I don't wanna take the test...</i></p>
+    <h2>This is how we use EXTERNAL styling.</h2>
+
+    <div class="space">
+        <img src="images/stars.jpg" class="stars">
+        <div class="spaceone">
+            <p>external.<br><br>like, all the way out to neptune.<br><br>get it?</p>
+            <img src="images/neptune.png" width="300px">
+            <p>no?</p>
+        </div>
+        <div class="spaceone" style="position:relative; top:75px; left:150px">
+            <p>or maybe pluto?</p>
+            <img src="images/pluto.png" width="300px">
+            <p>(not <span class="span1">to scale.</span> <span id="span2">none</span> of this is <span class="span1">to scale.</span>)</p>
+        </div>
+        <div class="spacetwo">
+            <p><br><br>MoM-z14?
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                what is <span class="span1">scale?</span><br>tell me, what is <span class="span1">scale?</span>
+            </p>
+            <img src="images/galaxy.png" width="400px">
+        </div>
+    </div>
+</body>
+</html>
