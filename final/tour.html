@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+    <style>
+        body {
+            background-image:url("images/interlands.png");
+        }
+    </style>
+</head>
+<body>
+    <div id="backgroundbox">
+        <h1>Welcome to Asghbgahn.</h1>
+        <h2>We shall now begin the tour.</h2>
+        <br>
+        <p><i>The signpost <b>talks.</b> It <b>walks.</b></i></p>
+        <br><br>
+        <div>
+            <h3>How do things function down here?</h3>
+            <p>You see, it's very simple...</p>
+
+            <p class="change-text">What is 1 + 2?</p>
+            <button onclick="document.getElementById('add').innerHTML=1+2">Click here for the answer.</button>
+            <p id="add"></p>
+            <p>What is 25 + 36?</p>
+            <button onclick="document.getElementById('add2').innerHTML='Asghbgahn.'">Click here for the answer.</button>
+            <p id="add2" class="change-text"></p>
+
+            <button onclick="document.getElementById('change-text').innerHTML='Asghbgahn.'">But what is 25 + 36?</button>
+            <p id="change-text">What is it?</p>
+
+            <button onclick="document.getElementById('date').innerHTML=Date()">What date is it today?</button>
+            <p id="date"></p>
+
+            <button onclick="document.getElementById('not-date').innerHTML='Asghbgahn.'">But what day is it?</button>
+            <p id="not-date"></p>
+            
+        </div>
+        <br><br><br>
+        <div>
+            <h3>A few more examples to consider.</h3>
+            <button onclick="me()">Me.</button>
+            <p id="me"></p>
+            <button onclick="you()">You.</button>
+            <p id="you"></p>
+            <button onclick="simpleMath()">1 + 2</button>
+            <p id="simple-math"></p>
+            <button onclick="tree()">Tree.</button>
+            <p id="tree"></p>
+            <button onclick="pocketWatch()">Pocket Watch.</button>
+            <p id="pocket-watch"></p>
+            <button onclick="crow()">Crow.</button>
+            <p id="crow"></p>
+        </div>
+        <br><br><br>
+        <div>
+            <h3>But what is Asghbgahn?</h3>
+                <p>It is a very simple rule, really.</p>
+                <p>...</p>
+                <p>...you don't understand?</p>
+                <p>...</p>
+                <p>That's alright. It's perfectly normal to have questions, especially for a newcomer. After all, this is only your first cycle here. With time, you will find out.</p>
+                <br>
+                <span style="font-size:small">
+                    <p>With time.</p>
+                    <br>
+                <p><s>We have all the time we need.</s></p>
+                </span>
+        </div>
+        <br>
+        <p><i>The signpost marches in front of you, leading you along the dirt path.</i></p>
+        <br>
+        <button><a href="map.html">Onwards.</a></button>
+    </div>
+</body>
+</html>

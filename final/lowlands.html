@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lowlands</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <style>
+        body {
+            background-image:url("images/lowlands.png");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidenav">
+        <ul class="nav">
+            <li class="sidenav-title"><p><b>Welcome to Asghbgahn</b></p></li>
+            <a href="lowlands.html"><li><p>The Lowlands</p></li></a>
+            <a href="highlands.html"><li><p>The Highlands</p></li></a>
+            <a href="capital.html"><li><p>The Capital</p></li></a>
+            <a href="about.html"><li class="about"><p><b>About Asghbgahn</b></p></li></a>
+            <a href="contact.html"><li class="contact"><p><b>Contact</b></p></li></a>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div id="backgroundbox">
+            <h1>Welcome to The Lowlands</h1>
+            <h2>of Asghbgahn.</h2>
+            <p><i>Grass. Fields. Sky. Is that unexpected?</i></p>
+            <br><br>
+            <div>
+                <h2>The Path.</h2>
+                <p>It is a path. An ordinary dirt path through the plains. There is not much to see here.</p>
+                <br>
+                <p><i>Onwards.</i></p>
+            </div>
+            <br>
+            <div>
+                <h2>The Village.</h2>
+                <a href="images/village.png" target="_blank"><img src="images/village.png" width="600px" style="position:relative; left:20px;"></a>
+                &emsp;&emsp;&emsp;<p>The Village is one of the many small, near-identical settlements scattered across The Lowlands. This particular one, in the middle of The Plains, has a population of exactly <s>100</s> <b>101.5</b> and was established in the peak of the <b>5th</b> to last cycle. As a small farming town on the outskirts of Asghbgahn, it has little significance.</p>
+                <br><br>
+                <h3>The People.</h3>
+                <p><i>The people stand idle. </i><br><br>No, they are not idle. They are simply contemplating.</p>
+                <button onclick="villageTalk()">See what they have to say.</button>
+                <p id="village-talk"></p>
+                <br>
+                <p><i>Onwards.</i></p>
+            </div>
+            <br>
+            <div>
+                <h2>The Stream.</h2>
+                <a href="images/stream.png" target="_blank"><img src="images/stream.png" width="500px"></a>
+                <p>Just a half-hour walk <b>north</b> from the village. This stream is but a small branch of the greater Delta, where The River, flowing from the <b>north</b>, divides and enters the <b>northern</b> Sea.</p>
+                <br>
+                <h3>The Water.</h3>
+                <p><i>It is water. That you can be sure of.</i></p>
+                <br>
+                <h3>The Foliage.</h3>
+                <p><i>It is foliage. That you can be sure of.</i></p>
+                <br>
+            </div>
+            <div>
+                <button class="no-button" onclick="streamTalk()"><h2>The Man.</h2></button>
+                <p id="stream-talk"></p>
+            </div>
+            <br><br>
+
+            <button><a href="highlands.html">Onwards.</a></button>
+        </div>
+    </div>
+</body>
+</html>

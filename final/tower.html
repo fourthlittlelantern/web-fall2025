@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tower</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+    <style>
+        body {
+            background-image:url("images/tower.png");
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav-dark" style="background-image:url('images/abstract.png'); background-size: 100%;">
+        <ul class="nav">
+            <li class="sidenav-title-dark"><p><b>Welcome to<br>The Fortress</b></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+            <li><p><br></p></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div id="backgroundbox-dark">
+            <h1>Welcome to The Tower.</h1>
+            <h2>Asghbgahn.</h2>
+            <p>Population: <button class="no-button" onclick="towerTalk()"><b>1.3</b></button></p>
+            <i><p id="tower-talk"></p></i>
+            <div>
+                <h2>The Landing.</h2>
+                <i><p>It welcomes you.</p></i>
+            </div>
+            <div>
+                <h2>The Laboratory.</h2>
+                <i>
+                <p>The circular room at the top of the tower is small, but somehow, an entire laboratory of sorts is laid out in the cramped space. Strange equipment occupies the two small tables. Old papers are strewn across the floor. Various diagrams and drawings cover the rounded walls. The only small window, on the <b>north</b> side of the tower, is boarded up.</p>
+                <p>It probably wouldn't hurt to look around a bit. Probably.</p>
+                <img src="images/lab-wall.png" width="700px">
+                <p>Take a closer look at the row of papers below the map. The drawings are familiar, somehow. (Perhaps you came across them a long time ago, in another cycle?)</p>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <a href="images/lab-paper1.png" target="_blank"><img src="images/lab-paper1.png" width="200px"></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <a href="images/lab-paper2.png" target="_blank"><img src="images/lab-paper2.png" width="200px"></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <a href="images/lab-paper3.png" target="_blank"><img src="images/lab-paper3.png" width="200px"></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <a href="images/lab-paper4.png" target="_blank"><img src="images/lab-paper4.png" width="200px"></a>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <a href="images/lab-paper5.png" target="_blank"><img src="images/lab-paper5.png" width="200px"></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <p>(Perhaps they <button class="no-button" onclick="labTalk()"><b>belonged</b></button> to you a long time ago, in another cycle?)</p>
+
+                <p id="lab-talk"></p>
+                </i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
